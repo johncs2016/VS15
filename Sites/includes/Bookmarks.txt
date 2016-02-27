@@ -1,0 +1,3 @@
+dbName = phpmyadmin
+tbName = pma_bookmark
+query

@@ -1,0 +1,198 @@
+@import url("reset.css");
+
+canvas {
+	display:block;
+	margin:auto;
+}
+
+sup {
+	vertical-align:super;
+	font-size:0.75em;
+}
+
+#shead {
+	height:50px;
+	font-size:2.5em;
+	text-align:center;
+	color:#EDF7F9;
+	background-color:#758C48;
+}
+
+#itop {
+	height:145px;
+}
+
+#sdpersonal, #dwaist, #dactivity {
+	height:135px;
+	float:left;
+	width:490px;
+	background-color:#A4D5E2;
+	margin:5px;
+}
+
+#ibottom {
+	height:175px;
+}
+
+#dweight, #dother {
+	float:left;
+	width:740px;
+	background-color:#A4D5E2;
+	margin:5px;
+	height:165px;
+}
+
+.dhead {
+	margin:0;
+}
+
+.thead {
+	margin:5px;
+	background-color:#BA1419;
+	color:#FFF200;
+	font-size:1.5em;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+
+#itop > .hdata > .drow, #itop > .hdata > .drow > .dcon {
+	height:23px;
+}
+
+#ibottom > .hdata > .drow, #ibottom > .hdata > .drow > .dcon {
+	height:21px;
+}
+
+#dwaist > .drow > .dcon > .tlabel, #dactivity > .drow > .dcon > .tlabel {
+	width:70%;
+}
+
+#dwaist > .drow > .dcon > .tvalue, #dactivity > .drow > .dcon > .tvalue {
+	width:25%;
+}
+
+#dweight > .drow > .dcon > .tlabel {
+	width: 65%;
+}
+
+#dweight > .drow > .dcon > .tvalue {
+	width: 30%;
+}
+
+.col1 {
+	width:40%;
+}
+
+.col2 {
+	width:60%;
+}
+
+.dcon {
+	float:left;
+}
+
+.twocols:not(.col1):not(.col2) {
+	width:50%;
+}
+
+.col1 > .tlabel {
+	width:60%;
+}
+
+.col1 > .tvalue {
+	width:35%;
+}
+
+.col2 > .tlabel {
+	width:50%;
+}
+
+.col2 > .tvalue {
+	width:45%;
+}
+
+.onecol {
+	width:100%;
+}
+
+.tlabel, .tvalue {
+	display:block;
+	float:left;
+	font-size:0.8em;
+}
+
+.tlabel {
+	width:50%;
+}
+
+.tvalue {
+	margin-top:3px;
+	margin-bottom:3px;
+	background-color:#E6EDD7;
+	color:#0072BC;
+	width:48%;
+}
+
+#itop > .hdata > .drow > .dcon > .tlabel {
+	height:23px;
+	line-height:23px;
+}
+
+#itop > .hdata > .drow > .dcon > .tvalue {
+	height:17px;
+	line-height:17px;
+}
+
+#ibottom > .hdata > .drow > .dcon > .tlabel {
+	height:21px;
+	line-height:21px;
+}
+
+#ibottom > .hdata > .drow > .dcon > .tvalue {
+	height:15px;
+	line-height:15px;
+}
+
+#scharts {
+	position:relative;
+}
+
+#scharts, #scharts div {
+	height:481px;
+}
+
+#scharts div {
+	float:left;
+	width:750px;
+}
+
+#buttons, #buttons.button {
+	height:60px;
+}
+
+.button {
+	display:block;
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	background-color:#007700;
+	text-align: center;
+	color: #ffffff;
+	width:200px;
+	line-height:60px;
+}
+
+.aleft {
+	text-align:left;
+}
+
+.amiddle {
+	text-align:center;
+}
+
+.aright {
+	text-align:right;
+}
+

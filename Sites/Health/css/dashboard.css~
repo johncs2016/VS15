@@ -1,0 +1,131 @@
+body {
+	font-weight:bold;
+	color:#903C39;
+	background-color:#D1EAF0;
+}
+
+table {
+	width:100%;
+	height:100%;
+}
+
+th {
+	background-color:#BA1419;
+	color:#FFF200;
+	font-size:1.5em;
+	border-top: 5px solid #BA1419;
+	border-bottom: 5px solid #BA1419;
+	margin-bottom: 2px;
+}
+
+td {
+	border-top: 5px solid #A4D5E2;
+	border-bottom: 5px solid #A4D5E2;
+}
+
+#itop {
+	height:144px;
+}
+
+#ibottom {
+	height:185px;
+}
+
+#scharts {
+	height:481px;
+}
+
+.hdata {
+	height:100%;
+}
+
+.bactivity {
+	width:90px;
+}
+
+.aleft {
+	text-align:left;
+}
+
+.amiddle {
+	text-align:center;
+}
+
+.aright {
+	text-align:right;
+}
+
+.button {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	background-color:#007700;
+	height: 60px;
+	width: 200px;
+	text-align: center;
+	line-height: 60px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size:12pt;
+}
+
+#shead, #itop, #ibottom, #scharts {
+	width:1500px;
+	margin:0 auto;
+}
+
+#shead {
+	height:40px;
+	font-size:2.5em;
+	text-align:center;
+	color:#EDF7F9;
+	background-color:#758C48;
+}
+
+#sdpersonal, #dwaist, #dactivity {
+	width:470px;
+	background-color:#A4D5E2;
+	float:left;
+	margin:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+#dweight, #dother {
+	width:720px;
+	background-color:#A4D5E2;
+	float:left;
+	margin:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+.shchart {
+	width:714px;
+	padding-left:13px;
+	padding-right:13px;
+	float:left;
+	margin:5px;
+}
+
+.tdata {
+	background-color:#E6EDD7;
+	color:#0072BC;
+	padding: 2px;
+	margin: 1px;
+}
+
+a {
+	display:block;
+}
+
+img {
+	width:180px;
+	height:60px;
+}
+
+

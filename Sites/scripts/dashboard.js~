@@ -1,0 +1,5 @@
+include("../Libraries/RGraph.common.core.js");
+include("../Libraries/RGraph.line.js");
+include("../Libraries/RGraph.drawing.rect.js");
+include("../scripts/display_values.js");
+

@@ -1,0 +1,31 @@
+function require(fname) {
+	document.write("<script src='" + fname + "'><\/script>");
+}
+
+function loadJQuery() {
+	loadCSS("../css/jquery-ui.css");
+	require("../scripts/jquery.js");
+	require("../scripts/jquery-ui.js");
+}
+
+function loadCSS(fname) {
+	document.write("<link rel='stylesheet' href='" + fname + "'>");
+}
+
+function relToFull(url){
+	var a=document.createElement("a");
+	a.href=url;
+	return a.href;
+}
+
+function scriptLoaded(fName) {
+	var scripts = document.getElementsByTagName('script');
+	for(i in scripts) {
+		if(scripts[i].src == fName) {
+			return true;
+		}
+	}
+	return false;
+}
+
+

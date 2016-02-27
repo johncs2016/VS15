@@ -1,0 +1,242 @@
+<dataroot>
+	<FrameSize>
+		<ID>1</ID>
+		<Gender>Female</Gender>
+		<Height>4ft. 10in.</Height>
+		<Small>102-111</Small>
+		<Medium>109-121</Medium>
+		<Large>118-131</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>2</ID>
+		<Gender>Female</Gender>
+		<Height>4ft. 11in.</Height>
+		<Small>103-113</Small>
+		<Medium>111-123</Medium>
+		<Large>120-134</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>3</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 0in.</Height>
+		<Small>104-115</Small>
+		<Medium>113-126</Medium>
+		<Large>122-137</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>4</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 1in.</Height>
+		<Small>106-118</Small>
+		<Medium>115-129</Medium>
+		<Large>125-140</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>5</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 2in.</Height>
+		<Small>108-121</Small>
+		<Medium>118-132</Medium>
+		<Large>128-143</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>6</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 2in.</Height>
+		<Small>128-134</Small>
+		<Medium>131-141</Medium>
+		<Large>138-150</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>7</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 3in.</Height>
+		<Small>111-124</Small>
+		<Medium>121-135</Medium>
+		<Large>131-147</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>8</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 3in.</Height>
+		<Small>130-136</Small>
+		<Medium>133-143</Medium>
+		<Large>140-153</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>9</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 4in.</Height>
+		<Small>114-127</Small>
+		<Medium>124-138</Medium>
+		<Large>134-151</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>10</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 4in.</Height>
+		<Small>132-138</Small>
+		<Medium>135-145</Medium>
+		<Large>142-156</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>11</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 5in.</Height>
+		<Small>117-130</Small>
+		<Medium>147-141</Medium>
+		<Large>137-155</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>12</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 5in.</Height>
+		<Small>134-140</Small>
+		<Medium>137-148</Medium>
+		<Large>144-160</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>13</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 6in.</Height>
+		<Small>120-133</Small>
+		<Medium>130-144</Medium>
+		<Large>140-159</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>14</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 6in.</Height>
+		<Small>136-142</Small>
+		<Medium>139-151</Medium>
+		<Large>146-164</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>15</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 7in.</Height>
+		<Small>123-136</Small>
+		<Medium>133-147</Medium>
+		<Large>143-163</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>16</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 7in.</Height>
+		<Small>138-145</Small>
+		<Medium>142-154</Medium>
+		<Large>149-168</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>17</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 8in.</Height>
+		<Small>126-139</Small>
+		<Medium>136-150</Medium>
+		<Large>146-167</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>18</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 8in.</Height>
+		<Small>140-148</Small>
+		<Medium>145-157</Medium>
+		<Large>152-172</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>19</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 9in.</Height>
+		<Small>129-142</Small>
+		<Medium>139-153</Medium>
+		<Large>149-170</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>20</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 9in.</Height>
+		<Small>142-151</Small>
+		<Medium>148-160</Medium>
+		<Large>155-176</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>21</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 10in.</Height>
+		<Small>132-145</Small>
+		<Medium>142-156</Medium>
+		<Large>152-173</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>22</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 10in.</Height>
+		<Small>144-154</Small>
+		<Medium>151-163</Medium>
+		<Large>158-180</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>23</ID>
+		<Gender>Female</Gender>
+		<Height>5ft. 11in.</Height>
+		<Small>135-148</Small>
+		<Medium>145-159</Medium>
+		<Large>155-176</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>24</ID>
+		<Gender>Male</Gender>
+		<Height>5ft. 11in.</Height>
+		<Small>146-157</Small>
+		<Medium>154-166</Medium>
+		<Large>161-184</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>25</ID>
+		<Gender>Female</Gender>
+		<Height>6ft. 0in.</Height>
+		<Small>138-151</Small>
+		<Medium>148-162</Medium>
+		<Large>158-179</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>26</ID>
+		<Gender>Male</Gender>
+		<Height>6ft. 0in.</Height>
+		<Small>149-160</Small>
+		<Medium>157-170</Medium>
+		<Large>164-188</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>27</ID>
+		<Gender>Male</Gender>
+		<Height>6ft. 1in.</Height>
+		<Small>152-164</Small>
+		<Medium>160-174</Medium>
+		<Large>168-192</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>28</ID>
+		<Gender>Male</Gender>
+		<Height>6ft. 2in.</Height>
+		<Small>155-168</Small>
+		<Medium>164-178</Medium>
+		<Large>172-197</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>29</ID>
+		<Gender>Male</Gender>
+		<Height>6ft. 3in.</Height>
+		<Small>158-172</Small>
+		<Medium>167-182</Medium>
+		<Large>176-202</Large>
+	</FrameSize>
+	<FrameSize>
+		<ID>30</ID>
+		<Gender>Male</Gender>
+		<Height>6ft. 4in.</Height>
+		<Small>162-176</Small>
+		<Medium>171-187</Medium>
+		<Large>181-207</Large>
+	</FrameSize>
+</dataroot>

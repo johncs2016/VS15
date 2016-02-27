@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Canvas Test</title>
+		<meta charset="utf-8">
+		<link href="../css/canvas.css" rel="stylesheet">
+		<script src="../scripts/loader.js"></script>
+		<script src="../scripts/graphs.js"></script>
+		<script>
+			function load() {
+				var cats = ["1 Jul", "8 Jul", "15 Jul", "22 Jul"];
+				loadGraph(cats, [76.1,75.8,76.2,76.7], true, true);
+				loadGraph(cats, [82.7,83.5,83.2,83.3], false, true);
+			}
+		</script>
+	<head>
+	<body onload="load()">
+		<div class="container">
+			<canvas id="scvsWeight" width="714" height="466"">
+				Canvas Not Supported, please upgrade your browser.
+			</canvas>
+		</div>
+		<div class="container">
+			<canvas id="scvsWaist" width="714" height="466"">
+				Canvas Not Supported, please upgrade your browser.
+			</canvas>
+		</div>
+	</body>
+</html>
+

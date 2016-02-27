@@ -1,0 +1,192 @@
+html, body {
+	height:100%;
+}
+
+body {
+	width:1500px;
+	margin:0 auto;
+	font-family:Arial,sans-serif;
+	font-size:0.75em;
+	font-weight:bold;
+	color:#903C39;
+	background-color:#D1EAF0;
+}
+
+table {
+	width:100%;
+	border-collapse:separate;
+	border-spacing: 5px;
+}
+
+th {
+	background-color:#BA1419;
+	color:#FFF200;
+	font-size:1.5em;
+}
+
+.dhead {
+	height:28px;
+}
+
+tr {
+	height:24px;
+}
+
+#itop {
+	height:144px;
+}
+
+#ibottom {
+	height:185px;
+}
+
+#scharts {
+	height:481px;
+}
+
+#pcharts {
+	display:none;
+	height: 370px;
+}
+
+.hdata {
+	height:100%;
+}
+
+.drow {
+	height:18px;
+}
+
+.bactivity {
+	width:90px;
+}
+
+.aleft {
+		text-align:left;
+}
+
+.amiddle {
+		text-align:center;
+}
+
+.aright {
+		text-align:right;
+}
+
+#phead {
+	display:none;
+}
+
+#shead, #itop, #ibottom, #scharts {
+	width:1500px;
+	margin:0 auto;
+}
+
+#phead, #idata, #pcharts {
+	width:1150px;
+	margin:0 auto;
+}
+
+#shead, #phead {
+	height:40px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:2.5em;
+	text-align:center;
+	color:#EDF7F9;
+	background-color:#758C48;
+}
+
+#idata {
+	display:none;
+	height: 225px;
+}
+
+#sdpersonal, #dwaist, #dactivity {
+	width:470px;
+	background-color:#A4D5E2;
+	float:left;
+	margin:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+#dweight, #dother {
+	width:720px;
+	background-color:#A4D5E2;
+	float:left;
+	margin:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+
+#dmain {
+	width:470px;
+	float:left;
+	margin:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+#dlatest {
+	width:600px;
+	background-color:#A4D5E2;
+	float:left;
+	margin:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+#dmain, #dlatest {
+	height: 215px;
+}
+
+#dmain {
+	padding-top: 0px;
+	padding-right: 0px;
+}
+
+#pdpersonal {
+	padding: 5px;
+	height: 110px;
+	margin-bottom: 5px;
+}
+
+#dinitial {
+	padding: 5px;
+	height: 85px;
+	margin-top: 5px;
+}
+
+#pdpersonal, #dinitial {
+	background-color:#A4D5E2;
+}
+
+.shchart {
+	width:714px;
+	padding-left:13px;
+	padding-right:13px;
+}
+
+.phchart {
+	width:540px;
+	padding-left:10px;
+	padding-right:0px;
+}
+
+.shchart, .phchart {
+	float:left;
+	margin:5px;
+	background-color:yellow;
+}
+
+.tdata {
+	background-color:#E6EDD7;
+	color:#0072BC;
+}
+

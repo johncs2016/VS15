@@ -1,0 +1,7 @@
+SetEnv APPLICATION_ENV "development"
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(images|photos|css|js|XML|robots\.txt)
+RewriteRule ^(.*)$ /index.php?url=$1 [L,QSA]

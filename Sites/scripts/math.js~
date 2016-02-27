@@ -1,0 +1,209 @@
+require("scripts/ComplexNumbers.js");
+
+// Conversion Between Degrees and Radians
+
+Math.radians = function(x) {
+	return x * Math.PI / 180;
+}
+
+Math.degrees = function(x) {
+	return 180 * x / Math.PI;
+}
+
+// keep number within a specific range
+
+Math.inRange = function(x, m, n) {
+
+	var result = x;
+	var minVal = Math.min(m, n);
+	var maxVal = Math.max(m, n);
+	var range = (maxVal - minVal) * (x > maxVal ? -1 : 1);
+
+	while(x < minVal || x > maxVal) {
+		result += range;
+	}
+
+	return result;
+}
+
+// other trig functions
+
+Math.sec = function(x) {
+	return 1 / Math.cos(x);
+}
+
+Math.csc = function(x) {
+	return 1 / Math.sin(x);
+}
+
+Math.cot = function(x) {
+	return 1 / Math.tan(x);
+}
+
+// other inverse trig functions
+
+Math.asec = function(x) {
+	return Math.acos(1 / x);
+}
+
+Math.acsc = function(x) {
+	return Math.asin(1 / x);
+}
+
+Math.acot = function(x) {
+	return Math.atan(1 / x);
+}
+
+Math.acot2 = function(y, x) {
+	return Math.atan2(x, y);
+}
+
+/*
+	Trig Functions with args in degrees
+	instead of radians.
+*/
+
+Math.sinD = function(x) {
+	return Math.sin(Math.radians(x));
+}
+
+Math.cosD = function(x) {
+	return Math.cos(Math.radians(x));
+}
+
+Math.tanD = function(x) {
+	return Math.tan(Math.radians(x));
+}
+
+Math.secD = function(x) {
+	return Math.sec(Math.radians(x));
+}
+
+Math.cscD = function(x) {
+	return Math.csc(Math.radians(x));
+}
+
+Math.cotD = function(x) {
+	return Math.cot(Math.radians(x));
+}
+
+/*
+	Inverse Trig Functions with results
+	in degrees instead of radians.
+*/
+
+Math.acosD = function(x) {
+	return Math.degrees(Math.acos(x));
+}
+
+Math.asinD = function(x) {
+	return Math.degrees(Math.asin(x));
+}
+
+Math.atanD = function(x) {
+	return Math.degrees(Math.atan(x));
+}
+
+Math.atan2D = function(y, x) {
+	return Math.degrees(Math.atan2(y, x));
+}
+
+Math.asecD = function(x) {
+	return Math.degrees(Math.asec(x));
+}
+
+Math.acscD = function(x) {
+	return Math.degrees(Math.acsc(x));
+}
+
+Math.acotD = function(x) {
+	return Math.degrees(Math.acot(x));
+}
+
+Math.acot2D = function(y, x) {
+	return Math.acot2(y, x);
+}
+
+// Logarithms with different bases
+
+Math.logA = function(x, B) {
+	return Math.log(x) / math.log(B);
+}
+
+Math.log10 = function(x) {
+	return Math.logA(x, 10);
+}
+
+// Allow For Multiple and Complex Square Roots
+
+Math.sqrtM = function(x) {
+	var num = Math.sqrt(Math.abs(x));
+	if(x == 0) {
+		return 0;
+	} else if(x > 0) {
+		return [num, -1 * num];
+	} else {
+		var c = new ComplexNumber(0, num);
+		return [c, c.conjugate()];
+	}
+}
+
+Math.quadRoot = function(a, b, c) {
+	if (a == 0) throw new Error("x-squared co-efficient can't be zero");
+	var disc = b * b - 4 * a * c;
+	var discRoots = Math.sqrtM(disc);
+	var k = (-1 * b) / (2 * a);
+	var x1, x2;
+	if (discRoots == 0) return k;
+	if (disc > 0) {
+		x1 = k + discRoots[0] / (2 * a);
+		x2 = k + discRoots[1] / (2 * a);
+	} else {
+		x1 = new ComplexNumber(k, discRoots[0].imaginary / (2 * a));
+		x2 = new ComplexNumber(k, discRoots[1].imaginary / (2 * a));
+	}
+	return [x1, x2];
+}
+
+// factorial (n! = n * (n - 1) * (n - 2) * .... * 3 * 2 * 1)
+
+Math.factorial = function(x) {
+	return ((x <= 1) ? 1 : Math.factorial(x - 1));
+}
+
+// Odd and Even Numbers, and Primes
+
+Math.isEven = function(x) {
+	return (x % 2 == 0);
+}
+
+Math.isOdd = function(x) {
+	return !Math.isEven(x);
+}
+
+Math.isPrime = function(x){
+	if (x == 1 || x == 2) return true;
+	if (Math.isEven(x)) return false;
+	for(var i = 3; i <= x; i += 2) {
+		if(x % i == 0) return false;
+	}
+	return true;
+}
+
+Math.prevnextPrime = function(x, f) {
+	if (Math.isPrime(x)) return x;
+	result = (Math.isEven(x) ? x + (flag ? 1 : -1) : x);
+	while (!Math.isPrime(result) && result > 2) {
+		result += (flag ? 2 : (result == 3 ? -1 : -2));
+	}
+	return result;
+}
+
+Math.nextPrime = function(x) {
+	return Math.prevnextPrime(x, true);
+}
+
+Math.prevPrime = function(x) {
+	return Math.prevnextPrime(x, false);
+}
+

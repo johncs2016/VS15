@@ -1,0 +1,266 @@
+html {
+	margin:0;
+	padding:0;
+}
+
+::-moz-placeholder {
+	color: blue;
+}
+
+::-webkit-input-placeholder {
+	color: blue;
+}
+
+body {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	font-weight:bold;
+	color:#903C39;
+	background-color:#D1EAF0;
+}
+
+label, .tlabel {
+	display: block;
+	float: left;
+	text-align: left;
+	margin-right: 0.5em;
+	width: 15em;
+}
+
+.tlabel {
+	margin-top:0;
+	margin-bottom:0;
+	height:40px;
+	line-height:40px;
+}
+
+.tdata {
+	height:40px;
+	line-height:40px;
+	margin:0;
+	text-align:left;
+	width:15em;
+	float:left;
+}
+
+.dcon {
+	height:40px;
+}
+
+input, select {
+	color: #4169e1;
+	background-color: #FCE6D4;
+	border: 1px solid #781351;
+	height: 25px;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+input:focus, select:focus {
+	background-color: #FFC20E;
+}
+
+#dhead {
+	height: 100px;
+	padding: 0;
+	margin:0;
+	background-color: #f0e68c;
+	color:#EDF7F9;
+}
+
+#dhead h2 {
+	display: block;
+	height:50px;
+	background-color:#758C48;
+	font-size:1.9em;
+	text-align:center;
+	margin: 0;
+	padding:0;
+}
+
+
+#fcon {
+	height:370px;
+	margin: 0;
+	padding-left: 30px;
+	padding-top: 20px;
+	background-color:#40e0d0;
+}
+
+.submit {
+	height: 60px;
+}
+
+.dpicker, .tbox, .tselect {
+	margin: 0;
+	height: 40px;
+	line-height: 40px;
+}
+
+.required_notification {
+	width: 98%;
+	height: 50px;
+	display: block;
+	color:#d45252;
+	font-size:0.8em;
+	text-align:right;
+	margin:0;
+	padding-top: 5px;
+}
+.error_notification {
+    color:#d45252;
+}
+input:required, textarea:required {
+    background: #fff url(images/red_asterisk.png) no-repeat 98% center;
+}
+.form_hint {
+	background: #28921f;
+	color: white;
+	margin-left:8px;
+	padding: 1px 6px;
+	z-index: 999; /* hints stay above all other elements */
+	position: absolute; /* allows proper formatting if hint is two lines */
+	display:none;
+}
+.form_hint::before {
+    content: "\25C0"; /* left point triangle in escaped unicode */
+    color:#28921f;
+    position: absolute;
+    top:1px;
+    left:-6px;
+}
+.form_error {
+    background: #d45252;
+    color: white;
+    margin-left:8px;
+    padding: 1px 6px;
+    z-index: 999; /* hints stay above all other elements */
+    position: absolute; /* allows proper formatting if hint is two lines */
+}
+.form_error::before {
+    content: "\25C0"; /* left point triangle in escaped unicode */
+    color:#d45252;
+    position: absolute;
+    top:1px;
+    left:-6px;
+}
+
+.button {
+	display: block;
+	float: left;
+	border: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-decoration: none;
+	background-color:#007700;
+	padding: 0;
+	height: 60px;
+	width: 180px;
+	text-align: center;
+	font-size: 12pt;
+	line-height: 60px;
+	color: #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+th {
+	font-size:1em;
+	color:#0072BC;
+}
+
+th, td {
+	text-align: center;
+	border: 1px solid #777;
+}
+
+td {
+	background-color:#E6EDD7;
+	color:#0072BC;
+}
+
+caption {
+	background-color:#BA1419;
+	color:#FFF200;
+	font-size:1.5em;
+	font-weight: bold;
+}
+
+.dhead, .daddrec {
+	height:28px;
+}
+
+tr {
+	height:24px;
+}
+
+ul {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.dodd, .deven, .hodd, .heven {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.dodd, .deven {
+	color:#BA1419;
+}
+
+.hodd {
+	background-color:#FFCC00;
+}
+
+.heven {
+	background-color:#FFFF00;
+}
+
+.hedit {
+	background-color:#FFCC00;
+	width: 70px;
+}
+
+.hdelete {
+	background-color:#FFFF00;
+	width: 90px;
+}
+
+.dodd {
+	background-color:#99CCFF;
+}
+
+.deven {
+	background-color:#99FFFF;
+}
+
+.dedit {
+	background-color:#99CCFF;
+	width: 70px;
+}
+
+.daddrec {
+	background-color:#FFCCFF;
+}
+
+.ddelete {
+	background-color:#99FFFF;
+	width: 90px;
+}
+
+.drow {
+	height:18px;
+}
+
+.dicon {
+	width:16px;
+	height:16px;
+	vertical-align: middle;
+}
+

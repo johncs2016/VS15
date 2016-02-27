@@ -1,0 +1,139 @@
+body {
+	width:1150pt;
+	margin:0 0;
+	font-family:Arial,sans-serif;
+	font-size:0.75em;
+	font-weight:bold;
+	color:#903C39;
+	background-color:#D1EAF0;
+}
+
+table {
+	width:100%;
+	border-collapse:separate;
+	border-spacing: 5pt;
+}
+
+th {
+	background-color:#BA1419;
+	color:#FFF200;
+	font-size:1.5em;
+}
+
+.dhead {
+	height:28pt;
+}
+
+tr {
+	height:24pt;
+}
+
+#pcharts {
+	height: 370pt;
+}
+
+.hdata {
+	height:100%;
+}
+
+.drow {
+	height:18pt;
+}
+
+.bactivity {
+	width:90pt;
+}
+
+.aleft {
+		text-align:left;
+}
+
+.amiddle {
+		text-align:center;
+}
+
+.aright {
+		text-align:right;
+}
+
+#phead, #idata, #pcharts {
+	width:1150pt;
+	margin:0 auto;
+}
+
+#phead {
+	height:40pt;
+	margin-top:5pt;
+	margin-bottom:5pt;
+	font-size:2.5em;
+	text-align:center;
+	color:#EDF7F9;
+	background-color:#758C48;
+}
+
+#idata {
+	height: 157pt;
+}
+
+#dmain {
+	width:350pt;
+	float:left;
+	margin:5pt;
+	padding-left:10pt;
+	padding-right:10pt;
+	padding-top:5pt;
+}
+
+#dlatest {
+	width:440pt;
+	background-color:#A4D5E2;
+	float:left;
+	margin:5pt;
+	padding-left:10pt;
+	padding-right:10pt;
+	padding-top:5pt;
+}
+
+#dmain, #dlatest {
+	height: 157pt;
+}
+
+#dmain {
+	padding-top: 0pt;
+	padding-right: 0pt;
+}
+
+#pdpersonal {
+	padding: 5pt;
+	height: 50pt;
+	margin-bottom: 5pt;
+}
+
+#dinitial {
+	padding: 5pt;
+	height: 60pt;
+	margin-top: 5pt;
+}
+
+#pdpersonal, #dinitial {
+	background-color:#A4D5E2;
+}
+
+.phchart {
+	width:400pt;
+	padding-left:10pt;
+	padding-right:0pt;
+	float:left;
+	margin:5pt;
+}
+
+.tdata {
+	background-color:#E6EDD7;
+	color:#0072BC;
+}
+
+#pcvsWeight, #pcvsWaist {
+	width:400pt;
+	height:250pt;
+}
+
